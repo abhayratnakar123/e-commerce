@@ -1,0 +1,33 @@
+ 
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* { 
+  font-family: 'Poppins', sans-serif;
+}
+
+/* .hero {
+  background-image: linear-gradient(90deg, #e74c3c, #c0392b);
+} */
+
+/* .hero {
+  background-image: linear-gradient(90deg, #3498db, #2980b9);
+} */
+.hero {
+  background-image: linear-gradient(90deg, #e74c3c, #c0392b);
+}
+@font-face {
+  font-family: 'Penna'; 
+  src: url('../public/assets/Fonts/penna/penna.regular.otf') format('opentype');  
+}
+.font-penna{
+  font-family: 'Penna', sans-serif;
+}
+ 
+.custom-scrollbar::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar in WebKit browsers (Chrome, Safari) */
+}
+
+ 
